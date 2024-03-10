@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.imgSize {
+    width: 50px;
+    height: 50px;
+}
+
+.playerButton {
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 60px;
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.resultText {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.choiceText{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.scoreText{
+    margin-top: 60;
+}
+
+.resetButton, .auto-play-button{
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+ol {
+    margin: -5px 15px;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}

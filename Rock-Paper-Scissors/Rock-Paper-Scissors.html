@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>12-rock-paper-scissor</title>
+    <link rel="stylesheet" href="style/rock-paper-scissor.css">
+  </head>
+  <body>
+    <p class="title">Rock | Paper | Scissors</p>
+    <p>
+      Instructions to play with keyboard:
+    </p>
+    <ol>
+      <li>
+        Press 'r' to choose Rock to play with the keyboard.
+      </li>
+      <li>
+        Press 'p' to choose Paper to play with the keyboard.
+      </li>
+      <li>
+        Press 's' to choose Scissors to play with the keyboard.
+      </li>
+      <li>
+        Press 'q' to Reset Score.
+      </li>
+      <li>
+        Press 'a' to start or stop Auto Play.
+      </li>
+    </ol> 
+    </p>
+    <button
+      class="playerButton js-rock-button"
+    >
+    <img src="images/rock-emoji.png" alt="rockImage" class="imgSize">
+    </button>
+    <button
+      class="playerButton js-paper-button"
+    >
+    <img src="images/paper-emoji.png" alt="paperImage" class="imgSize">
+    </button>
+    <button
+      class="playerButton js-scissors-button"
+    >
+    <img src="images/scissors-emoji.png" alt="scissorsImage" class="imgSize">
+    </button>
+    <p class="js-result resultText"></p>
+    <p class="js-choice choiceText"></p>
+    <p class="js-score scoreText">Wins: 0, Losses: 0, Ties: 0</p>
+    <button class="resetButton js-reset-button">
+        Reset Score
+    </button>
+    <button class="auto-play-button js-auto-play">Auto Play</button>
+    <script src="script/rock-paper-scissor.js"></script>
+  </body>
+</html>
